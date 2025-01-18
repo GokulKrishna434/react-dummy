@@ -1,0 +1,29 @@
+{
+  "name": "nr-react",
+  "version": "1.0.0",
+  "description": "Tutorial project for react",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GokulKrishna434/react-dummy.git"
+  },
+  "author": "Gokul Krishna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GokulKrishna434/react-dummy/issues"
+  },
+  "homepage": "https://github.com/GokulKrishna434/react-dummy#readme",
+  "dependencies": {
+    "parcel": "^2.13.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  },
+  "browserList": [
+    "last 2 versions"
+  ]
+}
