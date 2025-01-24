@@ -1,9 +1,29 @@
-import { useState } from 'react';
-import resList from '../utils/dummy-data';
+import { useEffect, useState } from 'react';
 import RestaurantCard from './RestaurantCard';
 
 const Body = () => {
-  const [listOfRestaurants, setListOfRestaurants] = useState(resList);
+  const [listOfRestaurants, setListOfRestaurants] = useState([]);
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  useEffect(() => {
+    console.log('list updated ', listOfRestaurants);
+  }, [listOfRestaurants]);
+
+  const fetchData = async () => {
+    const data = await fetch(
+      'https://www.swiggy.com/dapi/restaurants/list/v5?lat=8.495049923726176&lng=76.94725647568703&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING',
+    );
+
+    const json = await data.json();
+    const newData = await json?.data?.cards.find(
+      (item) => item?.card?.card?.id === 'restaurant_grid_listing',
+    ).card?.card?.gridElements?.infoWithStyle?.restaurants;
+    setListOfRestaurants(newData);
+  };
+
   return (
     <div className="body">
       <div className="filter">
