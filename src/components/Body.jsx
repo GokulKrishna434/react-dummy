@@ -4,6 +4,10 @@ import Shimmer from './Shimmer';
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
+  const [filteredListOfRestaurants, setFilteredListOfRestaurants] = useState(
+    [],
+  );
+  const [keyword, setKeyword] = useState('');
 
   useEffect(() => {
     fetchData();
@@ -23,6 +27,7 @@ const Body = () => {
       (item) => item?.card?.card?.id === 'restaurant_grid_listing',
     ).card?.card?.gridElements?.infoWithStyle?.restaurants;
     setListOfRestaurants(newData);
+    setFilteredListOfRestaurants(newData);
   };
 
   return listOfRestaurants?.length === 0 ? (
@@ -30,20 +35,42 @@ const Body = () => {
   ) : (
     <div className="body">
       <div className="filter">
+        <div className="search-container">
+          <input
+            className="search-box"
+            value={keyword}
+            onChange={(e) => {
+              setKeyword(e.target.value);
+            }}
+          />
+          <button
+            className="search-btn"
+            onClick={() => {
+              const filteredRes = listOfRestaurants.filter((res) =>
+                res?.info?.name
+                  ?.toLowerCase()
+                  ?.includes(keyword?.toLowerCase()),
+              );
+              setFilteredListOfRestaurants(filteredRes);
+            }}
+          >
+            Search
+          </button>
+        </div>
         <button
           className="filter-btn"
           onClick={() => {
-            const filteredRes = listOfRestaurants.filter(
+            const filteredRes = listOfRestaurants?.filter(
               (res) => res?.info.avgRating > 4.2,
             );
-            setListOfRestaurants(filteredRes);
+            setFilteredListOfRestaurants(filteredRes);
           }}
         >
           Top Rated Restaurants
         </button>
       </div>
       <div className="res-container">
-        {listOfRestaurants.map((restaurant) => (
+        {filteredListOfRestaurants.map((restaurant) => (
           <RestaurantCard key={restaurant?.info?.id} resData={restaurant} />
         ))}
       </div>
