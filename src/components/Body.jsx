@@ -3,8 +3,11 @@ import RestaurantCard from './RestaurantCard';
 import Shimmer from './Shimmer';
 import { Link } from 'react-router';
 import { RESTAURANTS_API_URL } from '../utils/constants';
+import useOnlineStatus from '../utils/useOnlineStatus';
 
 const Body = () => {
+  const isOnline = useOnlineStatus();
+
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
   const [filteredListOfRestaurants, setFilteredListOfRestaurants] = useState(
     [],
@@ -14,10 +17,6 @@ const Body = () => {
   useEffect(() => {
     fetchData();
   }, []);
-
-  useEffect(() => {
-    console.log('list updated ', listOfRestaurants);
-  }, [listOfRestaurants]);
 
   const fetchData = async () => {
     const data = await fetch(RESTAURANTS_API_URL);
@@ -29,6 +28,12 @@ const Body = () => {
     setListOfRestaurants(newData);
     setFilteredListOfRestaurants(newData);
   };
+
+  if (!isOnline) {
+    return (
+      <h1>Looks like you're offline. Please check your internet connection.</h1>
+    );
+  }
 
   return listOfRestaurants?.length === 0 ? (
     <Shimmer />
