@@ -21,14 +21,14 @@ const RestaurantMenu = () => {
   const { itemCards } = cards[index]?.card?.card;
 
   return (
-    <div>
-      <h1>{name}</h1>
-      <h3>
+    <div className="p-4">
+      <h1 className="font-bold text-2xl">{name}</h1>
+      <h3 className="font-semibold">
         {avgRating} - {costForTwoMessage}
       </h3>
-      <p>{cuisines?.join(', ')}</p>
-      <h2>Menu</h2>
-      <ul>
+      <p className="font-semibold mb-5">{cuisines?.join(', ')}</p>
+      <h2 className="font-bold text-xl">Menu</h2>
+      <ul className="list-disc px-6">
         {itemCards.map((item) => (
           <li key={item?.card?.info?.id}>
             {item?.card?.info?.name} - Rs{' '}

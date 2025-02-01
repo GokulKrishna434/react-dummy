@@ -8,26 +8,26 @@ const Header = () => {
   const [btnLabel, setBtnLabel] = useState('Login');
 
   return (
-    <div className="header">
+    <div className="flex justify-between item-center bg-pink-100 shadow-lg mb-2 sm:bg-yellow-50 lg:bg-green-50">
       <div className="header-container">
-        <img className="logo" src={LOGO_URL} />
+        <img className="w-56" src={LOGO_URL} />
       </div>
-      <div className="nav-items">
-        <ul>
-          <li>Online Status: {isOnline ? '🟢' : '🔴'}</li>
-          <li>
+      <div className="flex items-center">
+        <ul className="flex items-center p-4 m-4">
+          <li className="px-4">Online Status: {isOnline ? '🟢' : '🔴'}</li>
+          <li className="px-4">
             <Link to="/">Home</Link>
           </li>
-          <li>
+          <li className="px-4">
             <Link to="/about">About Us</Link>
           </li>
-          <li>
+          <li className="px-4">
             <Link to="/contact">Contact Us</Link>
           </li>
-          <li>
+          <li className="px-4">
             <Link to="/grocery">Grocery</Link>
           </li>
-          <li>Cart</li>
+          <li className="px-4">Cart</li>
           <button
             onClick={() => {
               btnLabel === 'Login'
