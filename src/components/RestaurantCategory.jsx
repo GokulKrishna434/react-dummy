@@ -1,11 +1,8 @@
-import { useState } from 'react';
 import RestaurantItemCard from './RestaurantItemCard';
 
-const RestaurantCategory = ({ data }) => {
-  const [isExpanded, setIsExpanded] = useState(false);
-
+const RestaurantCategory = ({ data, isExpanded, setExpandedIndex }) => {
   const toggleExpand = () => {
-    setIsExpanded(!isExpanded);
+    setExpandedIndex();
   };
 
   return (

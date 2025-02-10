@@ -2,8 +2,11 @@ import Shimmer from './Shimmer';
 import { useParams } from 'react-router';
 import useRestaurantMenu from '../utils/useRestaurantMenu';
 import RestaurantCategory from './RestaurantCategory';
+import { useState } from 'react';
 
 const RestaurantMenu = () => {
+  const [expandedIndex, setExpandedIndex] = useState(0);
+
   const { resId } = useParams();
 
   const resInfo = useRestaurantMenu(resId);
@@ -16,9 +19,6 @@ const RestaurantMenu = () => {
     resInfo?.cards[2]?.card?.card?.info;
 
   const { cards } = resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR;
-  const index = cards.findIndex((card) =>
-    card?.card?.card?.hasOwnProperty('itemCards'),
-  );
 
   const categories = cards.filter(
     (card) =>
@@ -36,10 +36,14 @@ const RestaurantMenu = () => {
         <p className="font-semibold mb-5">{cuisines?.join(', ')}</p>
       </div>
 
-      {categories?.map((category) => (
+      {categories?.map((category, index) => (
         <RestaurantCategory
           key={category?.card?.card?.categoryId}
           data={category?.card?.card}
+          isExpanded={expandedIndex === index}
+          setExpandedIndex={() =>
+            setExpandedIndex(expandedIndex === index ? null : index)
+          }
         />
       ))}
     </div>
