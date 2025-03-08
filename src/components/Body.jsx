@@ -49,6 +49,7 @@ const Body = () => {
       <div className="flex">
         <div className="m-4 p-4">
           <input
+            data-testid="search"
             className="border border-solid border-gray-400 outline-0 p-1 px-2 rounded-md"
             value={keyword}
             onChange={(e) => {

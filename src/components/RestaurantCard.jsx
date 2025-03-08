@@ -8,7 +8,10 @@ const RestaurantCard = ({ resData }) => {
   const { loggedInUser } = useContext(UserContext);
 
   return (
-    <div className="m-4 p-4 h-full w-[250px] rounded-lg bg-gray-100 hover:bg-gray-200">
+    <div
+      data-testid="resCard"
+      className="m-4 p-4 h-full w-[250px] rounded-lg bg-gray-100 hover:bg-gray-200"
+    >
       <img
         alt="Restaurant Logo"
         className="rounded-lg"
