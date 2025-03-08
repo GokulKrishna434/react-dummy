@@ -17,9 +17,9 @@ const RestaurantCategory = ({ data, isExpanded, setExpandedIndex }) => {
 
       {isExpanded && (
         <div>
-          {data?.itemCards.map((item) => (
+          {data?.itemCards.map((item, index) => (
             <RestaurantItemCard
-              key={item?.card?.info?.id}
+              key={`res-${item?.card?.info?.id}-${index}`}
               info={item?.card?.info}
             />
           ))}

@@ -9,7 +9,10 @@ const RestaurantItemCard = ({ info }) => {
     dispatch(addItem(info));
   };
   return (
-    <div className="flex justify-between my-3 border-b-2 border-gray-300">
+    <div
+      className="flex justify-between my-3 border-b-2 border-gray-300"
+      data-testid="menuItem"
+    >
       <div className="w-8/12">
         <div className="font-semibold">{info?.name}</div>
         <div className="text-sm font-bold">

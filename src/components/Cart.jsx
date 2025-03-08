@@ -27,8 +27,8 @@ const Cart = () => {
         {cartItems.length === 0 && (
           <p className="text-center mb-3">No items added</p>
         )}
-        {cartItems.map((item) => (
-          <RestaurantItemCard key={item?.id} info={item} />
+        {cartItems.map((item, index) => (
+          <RestaurantItemCard key={`cart-${item?.id}-${index}`} info={item} />
         ))}
       </div>
     </div>

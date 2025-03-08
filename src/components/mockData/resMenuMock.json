@@ -1,0 +1,1215 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "Al Taza",
+            "headerStyling": {
+              "textColor": "text_Highest_Emphasis",
+              "textVariant": "header_H3_Black"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "522870",
+              "name": "Al Taza",
+              "city": "Thiruvananthapuram",
+              "slugs": {
+                "restaurant": "al-taza-sparta-vazhuthacaud-vazhuthacaud",
+                "city": "thiruvananthapuram"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "70b9cb98b04d773417b77ee3c73910c9",
+              "locality": "Upper Meridian Road",
+              "areaName": "Kowdiar",
+              "costForTwo": "25000",
+              "costForTwoMessage": "₹250 for two",
+              "cuisines": ["Arabian", "Burgers"],
+              "avgRating": 4.7,
+              "feeDetails": {
+                "restaurantId": "522870",
+                "fees": [{}]
+              },
+              "parentId": "405299",
+              "avgRatingString": "4.7",
+              "totalRatingsString": "6.4K+ ratings",
+              "sla": {
+                "restaurantId": "522870",
+                "deliveryTime": 24,
+                "minDeliveryTime": 20,
+                "maxDeliveryTime": 25,
+                "lastMileTravel": 4,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                "zoneId": 730,
+                "slaString": "20-25 MINS",
+                "lastMileTravelString": "4.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-03-09 00:00:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {}
+              },
+              "aggregatedDiscountInfo": {
+                "shortDescriptionList": [
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "20% off upto ₹150|Use AMEXCORP Above ₹699",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "30% off upto ₹150|Use AXIS30 Above ₹200",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {},
+              "slugString": "al-taza-sparta-vazhuthacaud-vazhuthacaud",
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "18/939 , Lekha Building, Kuravankonam Jn, Kowdiar P O, Trivandrum - 695003"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Arabian,Burgers"
+                }
+              ],
+              "totalRatings": 6400,
+              "aggregatedDiscountInfoV2": {
+                "shortDescriptionList": [
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "20% off upto ₹150|Use AMEXCORP Above ₹699",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "30% off upto ₹150|Use AXIS30 Above ₹200",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/522870"
+              },
+              "ratingSlab": "RATING_SLAB_5",
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "hasBestsellerItems": true,
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {},
+                "presentation": {}
+              },
+              "latLong": "8.52371,76.95286",
+              "backgroundImageOverlayInfo": {},
+              "featuredSectionInfo": {}
+            },
+            "analytics": {}
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+            "sectionId": "POP_UP_CROUTON_MENU"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 5,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {},
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              },
+              "scrollBar": {}
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "20% OFF UPTO ₹150",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/5/b13ec064-4e06-4fbe-a5a5-7e13bb2f5757_AMEXMenuLogo.png",
+                      "offerIds": ["31782a08-64d1-41e6-8797-fa951b252932"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE AMEXCORP",
+                      "description": "ABOVE ₹699",
+                      "offerType": "offers",
+                      "restId": "522870",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/5/b13ec064-4e06-4fbe-a5a5-7e13bb2f5757_AMEXMenuLogo.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE AMEXCORP"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "30% OFF UPTO ₹150",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/28/94b71fe7-204c-4ed9-a120-4979c6624553_AxisMenuLogo.png",
+                      "offerIds": ["fbcf3e0b-94f2-4dae-bf39-72196e0842c2"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE AXIS30",
+                      "description": "ABOVE ₹200",
+                      "offerType": "offers",
+                      "restId": "522870",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/28/94b71fe7-204c-4ed9-a120-4979c6624553_AxisMenuLogo.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE AXIS30"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "10% OFF UPTO ₹150",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/28/1f7ef1c1-729c-4fbd-a62c-9e29bfc1f179_HSBC.png",
+                      "offerIds": ["45b1b8bc-7add-4110-aa16-bccc970eed04"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE HSBCFEST",
+                      "description": "ABOVE ₹499",
+                      "offerType": "offers",
+                      "restId": "522870",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/28/1f7ef1c1-729c-4fbd-a62c-9e29bfc1f179_HSBC.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE HSBCFEST"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹50 OFF",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/28/cafb7754-5e10-4b6a-b64a-9513212c55da_ICICIMenuLogo.png",
+                      "offerIds": ["2b03dc21-9c3e-4a8f-81e1-d4a6e91daa78"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "NO CODE REQUIRED",
+                      "description": "ABOVE ₹599",
+                      "offerType": "offers",
+                      "restId": "522870",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/28/cafb7754-5e10-4b6a-b64a-9513212c55da_ICICIMenuLogo.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "NO CODE REQUIRED"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹75 OFF",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/28/eaa95d6c-230f-49ca-942b-6109e33cf256_YESBankMenuLogoNew1.png",
+                      "offerIds": ["bb452928-91fc-412e-b505-987244417fb6"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "NO CODE REQUIRED",
+                      "description": "ABOVE ₹499",
+                      "offerType": "offers",
+                      "restId": "522870",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/2/28/eaa95d6c-230f-49ca-942b-6109e33cf256_YESBankMenuLogoNew1.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "NO CODE REQUIRED"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {}
+                },
+                "loyaltyDiscoverPresentationInfo": {
+                  "logoCtx": {}
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "badges": {},
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {
+                        "attributes": {
+                          "displayText": "Ratings 4.0+"
+                        }
+                      },
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      }
+                    },
+                    "relevance": {
+                      "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                      "sectionId": "MENU_FILTER_TOGGLE"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuCarousel",
+                      "title": "Top Picks",
+                      "carousel": [
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "2580648",
+                          "creativeId": "TopPicks2024/94028673B.png",
+                          "title": "Al Taza Special Chicken",
+                          "description": " ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "94028673",
+                              "name": "Al Taza Special Chicken",
+                              "category": "Shawarma",
+                              "imageId": "927b6ffd94827f234fac51f8a97f9e49",
+                              "inStock": 1,
+                              "price": 22500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "2567769",
+                          "creativeId": "TopPicks2024/94028674B.png",
+                          "title": "Full Meat Chicken",
+                          "description": " ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "94028674",
+                              "name": "Full Meat Chicken",
+                              "category": "Shawarma",
+                              "imageId": "e99605e8c1d0673224566f6ae67f0084",
+                              "inStock": 1,
+                              "price": 19000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "2617069",
+                          "creativeId": "TopPicks2024/94028678B.png",
+                          "title": "Chicken Shawarma Burger",
+                          "description": " ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "94028678",
+                              "name": "Chicken Shawarma Burger",
+                              "category": "Shawarma Burger",
+                              "imageId": "a019495f3c041a60a3cd25d817448b6e",
+                              "inStock": 1,
+                              "price": 31000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Shawarma",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "94028673",
+                              "name": "Al Taza Special Chicken",
+                              "category": "Shawarma",
+                              "imageId": "927b6ffd94827f234fac51f8a97f9e49",
+                              "inStock": 1,
+                              "price": 22500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "2310 ratings",
+                                  "ratingCountV2": "2310"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "94028674",
+                              "name": "Full Meat Chicken",
+                              "category": "Shawarma",
+                              "imageId": "e99605e8c1d0673224566f6ae67f0084",
+                              "inStock": 1,
+                              "price": 19000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "2590 ratings",
+                                  "ratingCountV2": "2590"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122930797",
+                              "name": "Altaza Jumbo Shawarma",
+                              "category": "Shawarma",
+                              "imageId": "8bcafe9e27465b706ab3ffb0b62a1f34",
+                              "inStock": 1,
+                              "price": 31000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "629 ratings",
+                                  "ratingCountV2": "629"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "132066055",
+                              "name": "Altaza Plate Shawarma Max",
+                              "category": "Shawarma",
+                              "imageId": "c93be3c35bb3ae32d3027bf42fc38754",
+                              "inStock": 1,
+                              "price": 36200,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "153 ratings",
+                                  "ratingCountV2": "153"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "108655861",
+                              "name": "Chicken Healthy Shawarma",
+                              "category": "Shawarma",
+                              "imageId": "8cadce2d9c1de4f34ffbd26a45ee4945",
+                              "inStock": 1,
+                              "price": 27000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "352 ratings",
+                                  "ratingCountV2": "352"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "108655879",
+                              "name": "Chicken Club Shawarma",
+                              "category": "Shawarma",
+                              "imageId": "e371daccdb609dc860ab1c44177c18ff",
+                              "inStock": 1,
+                              "price": 27000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "257 ratings",
+                                  "ratingCountV2": "257"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "927b6ffd94827f234fac51f8a97f9e49",
+                      "categoryId": "23423778"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Mojitos",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "154686972",
+                              "name": "Passion Fruit Mojito.",
+                              "category": "Mojitos",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/20/58c5d44b-3c61-4605-98b7-db6fdb5ae819_c01f122b-5b31-4ee5-bf9f-2700ec831975.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 12000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "183860978",
+                                  "groupName": "ICE",
+                                  "choices": [
+                                    {
+                                      "id": "128416249",
+                                      "name": "With Ice",
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "128416250",
+                                      "name": "Without Ice",
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": 1,
+                                  "maxFreeAddons": -1,
+                                  "minAddons": 1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "222 ratings",
+                                  "ratingCountV2": "222"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "154686947",
+                              "name": "Green Apple Mojito.",
+                              "category": "Mojitos",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/1/52caa2a0-fd7e-4178-a847-a9fe7da0f9d7_cd3b9b0c-888e-4661-89fa-d989555e1372.jpeg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 12000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "183860972",
+                                  "groupName": "ICE",
+                                  "choices": [
+                                    {
+                                      "id": "128416249",
+                                      "name": "With Ice",
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "128416250",
+                                      "name": "Without Ice",
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": 1,
+                                  "maxFreeAddons": -1,
+                                  "minAddons": 1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "134 ratings",
+                                  "ratingCountV2": "134"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "154686933",
+                              "name": "Blue Curacao Mojito.",
+                              "category": "Mojitos",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/20/82b9b4d1-923b-4e55-bc83-61693e34ce85_ecfcca6e-bfb6-4979-bbf7-09059aed1380.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 12000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "183860860",
+                                  "groupName": "ICE",
+                                  "choices": [
+                                    {
+                                      "id": "128416249",
+                                      "name": "With Ice",
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "128416250",
+                                      "name": "Without Ice",
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": 1,
+                                  "maxFreeAddons": -1,
+                                  "minAddons": 1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "111 ratings",
+                                  "ratingCountV2": "111"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "154686923",
+                              "name": "Blue Berry Mojito.",
+                              "category": "Mojitos",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/20/1ffce135-178c-45e6-b99c-56b5201487a7_03ef8fee-f77c-459e-9a3f-d4ef043d2457.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 12000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "183860818",
+                                  "groupName": "ICE",
+                                  "choices": [
+                                    {
+                                      "id": "128416249",
+                                      "name": "With Ice",
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "128416250",
+                                      "name": "Without Ice",
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": 1,
+                                  "maxFreeAddons": -1,
+                                  "minAddons": 1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "86 ratings",
+                                  "ratingCountV2": "86"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "154686976",
+                              "name": "Watermelon Mojito.",
+                              "category": "Mojitos",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/20/6563c2b2-eaf8-4ecc-aed7-1ade2b61805b_e84a9a21-5e6f-4062-9cd4-4d5c1ba2cf26.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 12000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "183861101",
+                                  "groupName": "ICE",
+                                  "choices": [
+                                    {
+                                      "id": "128416249",
+                                      "name": "With Ice",
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "128416250",
+                                      "name": "Without Ice",
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": 1,
+                                  "maxFreeAddons": -1,
+                                  "minAddons": 1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "59 ratings",
+                                  "ratingCountV2": "59"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "154686861",
+                              "name": "Black Current Mojito.",
+                              "category": "Mojitos",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 12000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "183860793",
+                                  "groupName": "ICE",
+                                  "choices": [
+                                    {
+                                      "id": "128416249",
+                                      "name": "With Ice",
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "128416250",
+                                      "name": "Without Ice",
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": 1,
+                                  "maxFreeAddons": -1,
+                                  "minAddons": 1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "22 ratings",
+                                  "ratingCountV2": "22"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "154686971",
+                              "name": "Kiwi Mojito.",
+                              "category": "Mojitos",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 12000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "183860977",
+                                  "groupName": "ICE",
+                                  "choices": [
+                                    {
+                                      "id": "128416249",
+                                      "name": "With Ice",
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "128416250",
+                                      "name": "Without Ice",
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": 1,
+                                  "maxFreeAddons": -1,
+                                  "minAddons": 1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "22 ratings",
+                                  "ratingCountV2": "22"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2024/4/20/58c5d44b-3c61-4605-98b7-db6fdb5ae819_c01f122b-5b31-4ee5-bf9f-2700ec831975.jpg",
+                      "categoryId": "23572658"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Shawarma Burger",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "94028678",
+                              "name": "Chicken Shawarma Burger",
+                              "category": "Shawarma Burger",
+                              "imageId": "a019495f3c041a60a3cd25d817448b6e",
+                              "inStock": 1,
+                              "price": 31000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "41 ratings",
+                                  "ratingCountV2": "41"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "a019495f3c041a60a3cd25d817448b6e",
+                      "categoryId": "23423781"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": ["License No. 11322001000478"]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Al Taza",
+                      "area": "Kowdiar",
+                      "completeAddress": "18/939 , Lekha Building, Kuravankonam Jn, Kowdiar P O, Trivandrum - 695003"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "96a5ed08-cb7e-4810-8941-6a4f98e8eddd",
+  "sid": "jcj8552c-6f6e-426d-929d-c9f4cc576611",
+  "deviceId": "1d603852-c628-549a-60ce-a23a8e015042",
+  "csrfToken": "ll6A5ZYBBNFM-WQPZYn6Pa78MhDArrX3akGW3-wM"
+}
